@@ -6,7 +6,7 @@ documentation = "https://www.notriddle.com/rustdoc/leaky-cow/"
 readme = "README.md"
 repository = "https://github.com/notriddle/rust-leaky-cow"
 description = "Leak the contents of a Clone-On-Write pointer"
-license = "MIT / Apache 2.0"
+license = "MIT / Apache-2.0"
 
 [dependencies]
 leak = "0.1.1"
