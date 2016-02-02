@@ -8,7 +8,7 @@ extern crate leak;
 use leak::Leak;
 use std::borrow::{Borrow, Cow, ToOwned};
 
-trait LeakyCow<'a, B: ?Sized> {
+pub trait LeakyCow<'a, B: ?Sized> {
     fn leak(self) -> &'a B;
 }
 

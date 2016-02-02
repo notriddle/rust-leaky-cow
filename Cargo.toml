@@ -1,8 +1,8 @@
 [package]
 name = "leaky-cow"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Michael Howell <michael@notriddle.com>"]
-documentation = "https://www.notriddle.com/rustdoc/leaky-cow/"
+documentation = "https://www.notriddle.com/rustdoc/leaky_cow/"
 readme = "README.md"
 repository = "https://github.com/notriddle/rust-leaky-cow"
 description = "Leak the contents of a Clone-On-Write pointer"
